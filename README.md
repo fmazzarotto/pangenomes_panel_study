@@ -10,4 +10,4 @@ Scripts used in "Pangenomes aid accurate detection of large insertion and deleti
 
 **gatk_graf_manta_output_filtering.sh**: this script was used to post-process variant calls made by Manta, GATK Haplotype Caller and GRAF, and produce final VCF files as well as tab-separated tables with variants called by these 3 callers.
 
-**results_processing_pipeline.R**: this R script was used to merge, harmonize and add extra information to the final variant calls of interest made by the 4 tools.
+**results_processing_pipeline.R**: this R script was used to merge, harmonize and add extra information to the final variant calls of interest made by the 4 tools. **NOTE:** A minor **bug** in this script causes the assignment of a wrong exon numbering to exons of genes located on the reverse strand. Numbering has been corrected in the submitted Supplementary Tables.
